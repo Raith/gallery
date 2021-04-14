@@ -30,13 +30,13 @@
                 </div>
             </div>
             <div class="d-flex flex-sm-row flex-md-column col-md-2 col-sx-12 justify-content-around">
-                <div class="form-check form-switch">
+                <div class="form-check form-switch" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover" title="Toggle between infinite scroll and pagination. Default: On.">
                     <input class="form-check-input" type="checkbox" id="switchInfiniteToggle" onChange=switchInfiniteScroll() checked onmouseleave=blurOnMouseLeave(this)>
-                    <label class="form-check-label" for="switchInfiniteToggle" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover" title="Toggle between infinite scroll and pagination. Default: On." onmouseleave=blurTargetOnMouseLeave(`switchInfiniteToggle`)>Infinite</label>
+                    <label class="form-check-label" for="switchInfiniteToggle" onmouseleave=blurTargetOnMouseLeave(`switchInfiniteToggle`)>Infinite</label>
                 </div>
-                <div class="form-check form-switch">
+                <div class="form-check form-switch" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover" title="Allows switching between two layouts: (1) images stacked closer together or (2) evenly distributed image frames. Default: Stacked.">
                     <input class="form-check-input" type="checkbox" id="switchLayoutToggle" onChange=switchLayout() checked onmouseleave=blurOnMouseLeave(this)>
-                    <label class="form-check-label" for="switchLayoutToggle" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover" title="Allows switching between two layouts: (1) images stacked closer together or (2) evenly distributed image frames. Default: Stacked." onmouseleave=blurTargetOnMouseLeave(`switchLayoutToggle`)>Layout</label>
+                    <label class="form-check-label" for="switchLayoutToggle" onmouseleave=blurTargetOnMouseLeave(`switchLayoutToggle`)>Layout</label>
                 </div>
             </div>
         </div>
