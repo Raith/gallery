@@ -20,7 +20,7 @@ Features:
 * Both toggle (presentation and layout) settings are not saved if changed and are provided for demonstration purposes only.
 * Can upload new images either directly to the server or via Imgur.com API.
   *  Directly uploaded images are given a unique name.
-  *  Imgur.com API returns a unique link that is saved to file.
+  *  Imgur.com API returns a unique link that is saved on the server.
   *  Both the name and link are used to insert new images into the live gallery at their correct alphabetical positions, moving other images further down if needed.
   *  Unlike toggle settings, uploaded images will survive a page refresh.
 * Project comes with 50 locally available images and 6 images already uploaded to Imgur.com. All images are courtesy of https://search.creativecommons.org/.
