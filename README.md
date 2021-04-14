@@ -22,7 +22,7 @@ Features:
   *  Directly uploaded images are given a unique name.
   *  Imgur.com API returns a unique link that is saved on the server.
   *  Both the name and link are used to insert new images into the live gallery at their correct alphabetical positions, moving other images further down if needed.
-  *  Unlike toggle settings, uploaded images will survive a page refresh.
+  *  Unlike toggle settings, uploaded images will survive a page refresh, but only Imgur.com links will survive a redeployment of the project on https://www.heroku.com/.
 * Project comes with 50 locally available images and 6 images already uploaded to Imgur.com. All images are courtesy of https://search.creativecommons.org/.
   * Preloaded local images have 4 character names.
   * All Imgur.com images at the moment have 7 character names.
