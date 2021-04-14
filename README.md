@@ -17,7 +17,7 @@ Features:
 * Two layouts (images are either stacked closer together or are equally distributed with more whitespace in between them). Default: stacking.
   * Layout can be switched with either infinite scroll or pagination.
   * If switching with infinite scroll, only the infinite scroll starting page remains, any further pages are not shown and must be loaded again.
-* Both switch (presentation and layout) settings are not saved if changed and are provided for demonstration purposes only.
+* Both toggle (presentation and layout) settings are not saved if changed and are provided for demonstration purposes only.
 * Can upload new images either directly to the server or via Imgur.com API.
   *  Directly uploaded images are given a unique name.
   *  Imgur.com API returns a unique link that is saved to file.
@@ -27,5 +27,6 @@ Features:
   * Preloaded local images have 4 character names.
   * All Imgur.com images at the moment have 7 character names.
   * Directly uploaded images will have 16 character names.
+* Tooltips are disabled on touchscreen devices without hover-capable pointing devices.
 
 **Note**: Server-side (PHP) is not designed to withstand misuse and does not strive to provide sanity checks for all (edge) cases.
