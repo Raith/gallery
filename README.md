@@ -2,8 +2,6 @@
 
 Proof of concept image gallery.
 
-Live version of this project can be found here: https://infinitegallery.herokuapp.com 
-
 Features:
 * Responsive design via Bootstrap 5.
 * Images are sorted alphabetically by their name (case is ignored).
